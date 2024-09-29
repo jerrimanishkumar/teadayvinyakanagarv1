@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    eslint: {
+   /*  eslint: {
         ignoreDuringBuilds: true,
       },
       reactStrictMode: true,
@@ -10,7 +10,8 @@ const nextConfig = {
         // your project has type errors.
         // !! WARN !!
         ignoreBuildErrors: true,
-      }
+      } */
+     reactStrictMode:true
 };
 
 export default nextConfig;
